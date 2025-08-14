@@ -1,0 +1,301 @@
+EmployeeID,FirstName,LastName,FullName,Email,Department,Role,HireDate,TerminationDate,Age,Gender,CurrentSalary,Status,PerformanceScore,GoalsAchieved,GoalsSet,AchievementRate,OverallEngagement,JobSatisfaction,TenureYears,TenureCategory,PerformanceCategory
+EMP0001,Anne,Russo,Anne Russo,anne.russo@company.com,Sales,Sales Rep,2024-09-06,,22,Other,48000,Active,3.57,4.0,6.0,70.0,3.1,3.27,0.9,<1 Year,Average
+EMP0002,Roy,Escobar,Roy Escobar,roy.escobar@company.com,Legal,Legal Counsel,2019-08-09,,25,Male,99000,Active,2.9,4.0,8.0,58.3,3.73,3.7,6.0,5-10 Years,Below Average
+EMP0003,Jesse,Sutton,Jesse Sutton,jesse.sutton@company.com,Legal,Senior Counsel,2022-12-27,,37,Male,130000,Active,2.66,4.0,7.0,61.3,3.65,3.36,2.6,1-3 Years,Below Average
+EMP0004,Amber,Mckinney,Amber Mckinney,amber.mckinney@company.com,IT,IT Specialist,2023-10-18,,22,Female,73000,Active,3.32,5.0,8.0,71.7,3.48,3.99,1.8,1-3 Years,Average
+EMP0005,Jessica,Vincent,Jessica Vincent,jessica.vincent@company.com,Finance,Financial Analyst,2025-04-13,,24,Female,56000,Active,3.05,3.0,7.0,57.0,,,0.3,<1 Year,Average
+EMP0006,Susan,Schultz,Susan Schultz,susan.schultz@company.com,Sales,Sales Rep,2025-04-13,,23,Female,55000,Active,2.66,1.0,3.0,44.2,,,0.3,<1 Year,Below Average
+EMP0007,Barbara,Whitney,Barbara Whitney,barbara.whitney@company.com,Product,Senior PM,2025-07-02,,33,Other,101000,Active,,,,,,,0.1,<1 Year,
+EMP0008,Nicole,Wolfe,Nicole Wolfe,nicole.wolfe@company.com,IT,IT Manager,2021-08-07,,42,Female,137000,Active,2.94,2.0,4.0,52.7,3.21,3.02,4.0,3-5 Years,Below Average
+EMP0009,Christopher,Walker,Christopher Walker,christopher.walker@company.com,HR,HR Manager,2023-10-14,,31,Male,82000,Active,3.08,3.0,6.0,52.1,3.12,4.06,1.8,1-3 Years,Average
+EMP0010,Brenda,Phillips,Brenda Phillips,brenda.phillips@company.com,Finance,Financial Analyst,2023-02-28,,23,Female,63000,Active,3.41,2.0,4.0,55.5,3.62,4.04,2.5,1-3 Years,Average
+EMP0011,Jerry,Holt,Jerry Holt,jerry.holt@company.com,Finance,Senior Analyst,2025-07-30,,28,Male,84000,Active,,,,,,,0.0,<1 Year,
+EMP0012,Paul,Miller,Paul Miller,paul.miller@company.com,Legal,Senior Counsel,2018-08-14,,40,Male,141000,Active,3.15,4.0,7.0,63.2,3.11,3.22,7.0,5-10 Years,Average
+EMP0013,Cynthia,Choi,Cynthia Choi,cynthia.choi@company.com,Legal,Legal Counsel,2022-01-18,,22,Other,95000,Active,3.0,2.0,4.0,54.3,3.43,4.08,3.6,3-5 Years,Below Average
+EMP0014,Keith,Berry,Keith Berry,keith.berry@company.com,Operations,Operations Analyst,2025-02-21,2025-08-02,24,Male,53000,Terminated,3.07,3.0,7.0,52.7,,,0.5,<1 Year,Average
+EMP0015,Danielle,Sanchez,Danielle Sanchez,danielle.sanchez@company.com,Customer Service,Support Manager,2025-03-21,,37,Female,73000,Active,2.75,4.0,7.0,59.0,,,0.4,<1 Year,Below Average
+EMP0016,Sean,Harris,Sean Harris,sean.harris@company.com,Legal,Senior Counsel,2025-03-20,,33,Male,136000,Active,2.86,4.0,8.0,59.8,,,0.4,<1 Year,Below Average
+EMP0017,Beverly,Rojas,Beverly Rojas,beverly.rojas@company.com,Operations,Operations Analyst,2024-11-23,,27,Female,57000,Active,2.57,2.0,7.0,34.7,3.56,4.09,0.7,<1 Year,Below Average
+EMP0018,David,Kim,David Kim,david.kim@company.com,Sales,Sales Rep,2024-02-18,,26,Male,54000,Active,3.27,2.0,6.0,49.4,3.3,3.88,1.5,1-3 Years,Average
+EMP0019,Jessica,Shaffer,Jessica Shaffer,jessica.shaffer@company.com,Customer Service,Senior Support Rep,2024-06-28,,32,Female,64000,Active,2.9,2.0,7.0,40.2,3.1,3.74,1.1,1-3 Years,Below Average
+EMP0020,Kenneth,Mullins,Kenneth Mullins,kenneth.mullins@company.com,Sales,Senior Sales Rep,2024-12-06,,31,Male,77000,Active,3.05,2.0,3.0,70.5,3.53,2.97,0.7,<1 Year,Average
+EMP0021,Jennifer,Sanders,Jennifer Sanders,jennifer.sanders@company.com,Sales,Sales Rep,2023-09-24,,20,Female,59000,Active,2.77,1.0,3.0,40.8,2.87,2.41,1.9,1-3 Years,Below Average
+EMP0022,Nicole,French,Nicole French,nicole.french@company.com,Finance,CFO,2025-04-27,,51,Other,181000,Active,3.12,2.0,4.0,64.2,,,0.3,<1 Year,Average
+EMP0023,Carol,Young,Carol Young,carol.young@company.com,Finance,Finance Manager,2024-12-05,,38,Other,105000,Active,3.09,5.0,8.0,63.4,3.84,4.69,0.7,<1 Year,Average
+EMP0024,Dennis,House,Dennis House,dennis.house@company.com,Legal,General Counsel,2024-09-15,,43,Male,269000,Active,3.16,2.0,3.0,67.4,3.87,3.69,0.9,<1 Year,Average
+EMP0025,Ashley,Todd,Ashley Todd,ashley.todd@company.com,Engineering,Software Engineer,2024-05-27,,24,Female,74000,Active,3.38,3.0,6.0,54.7,3.56,3.33,1.2,1-3 Years,Average
+EMP0026,Adam,Clark,Adam Clark,adam.clark@company.com,IT,IT Manager,2022-07-19,2025-07-08,39,Male,142000,Terminated,3.65,3.0,5.0,73.9,3.16,3.71,3.1,3-5 Years,Average
+EMP0027,Karen,Perez,Karen Perez,karen.perez@company.com,Marketing,Marketing Specialist,2025-03-05,,27,Other,52000,Active,3.29,3.0,6.0,51.2,,,0.4,<1 Year,Average
+EMP0028,Shelby,Brown,Shelby Brown,shelby.brown@company.com,IT,IT Specialist,2024-03-05,,28,Other,73000,Active,3.56,2.0,5.0,57.2,3.29,3.58,1.4,1-3 Years,Average
+EMP0029,Isabel,Hammond,Isabel Hammond,isabel.hammond@company.com,HR,HR Manager,2023-10-29,,33,Other,74000,Active,2.47,2.0,6.0,35.7,3.91,3.63,1.8,1-3 Years,Below Average
+EMP0030,Brooke,Owen,Brooke Owen,brooke.owen@company.com,Product,Product Manager,2025-07-11,,24,Other,72000,Active,,,,,,,0.1,<1 Year,
+EMP0031,Alexandra,Jones,Alexandra Jones,alexandra.jones@company.com,HR,HR Manager,2023-10-02,2024-02-29,31,Other,68000,Terminated,2.82,2.0,4.0,64.5,,,1.9,1-3 Years,Below Average
+EMP0032,Michael,Peters,Michael Peters,michael.peters@company.com,Operations,Operations Analyst,2025-03-31,,26,Male,53000,Active,3.0,4.0,6.0,67.5,,,0.4,<1 Year,Below Average
+EMP0033,Richard,Thomas,Richard Thomas,richard.thomas@company.com,IT,Senior IT,2025-06-26,,34,Male,94000,Active,,,,,,,0.1,<1 Year,
+EMP0034,James,Mccarthy,James Mccarthy,james.mccarthy@company.com,Sales,Sales Rep,2019-09-05,,30,Male,59000,Active,3.24,3.0,8.0,46.3,3.6,3.33,5.9,5-10 Years,Average
+EMP0035,Megan,Drake,Megan Drake,megan.drake@company.com,Engineering,Senior Engineer,2018-11-19,,34,Other,106000,Active,2.71,2.0,8.0,34.6,3.53,3.34,6.7,5-10 Years,Below Average
+EMP0036,Kaitlyn,Mills,Kaitlyn Mills,kaitlyn.mills@company.com,Operations,Director Operations,2022-04-26,,41,Other,109000,Active,2.59,3.0,6.0,54.6,3.28,3.53,3.3,3-5 Years,Below Average
+EMP0037,Brianna,Ward,Brianna Ward,brianna.ward@company.com,Marketing,Marketing Specialist,2024-11-22,,22,Female,62000,Active,2.65,4.0,8.0,62.2,3.42,3.84,0.7,<1 Year,Below Average
+EMP0038,Andrew,Cobb,Andrew Cobb,andrew.cobb@company.com,Product,Director Product,2025-05-31,,36,Male,128000,Active,,,,,,,0.2,<1 Year,
+EMP0039,Erin,Reeves,Erin Reeves,erin.reeves@company.com,Engineering,Engineering Manager,2023-04-26,,48,Other,181000,Active,2.91,1.0,4.0,49.5,3.71,4.12,2.3,1-3 Years,Below Average
+EMP0040,Joann,Gregory,Joann Gregory,joann.gregory@company.com,Product,Product Manager,2024-06-17,,20,Female,78000,Active,2.58,1.0,3.0,35.5,3.19,3.04,1.2,1-3 Years,Below Average
+EMP0041,Chad,Flowers,Chad Flowers,chad.flowers@company.com,Customer Service,Support Rep,2025-05-11,,26,Male,39000,Active,3.31,4.0,7.0,62.8,,,0.3,<1 Year,Average
+EMP0042,Leah,Lambert,Leah Lambert,leah.lambert@company.com,Legal,Senior Counsel,2024-04-03,,31,Other,121000,Active,3.89,3.0,4.0,75.0,3.71,3.3,1.4,1-3 Years,Average
+EMP0043,Randall,Singh,Randall Singh,randall.singh@company.com,IT,Senior IT,2025-07-20,,32,Male,77000,Terminated,,,,,,,0.1,<1 Year,
+EMP0044,Caitlin,Powell,Caitlin Powell,caitlin.powell@company.com,Product,Senior PM,2020-10-27,,33,Other,116000,Active,2.89,1.0,3.0,66.4,3.48,3.3,4.8,3-5 Years,Below Average
+EMP0045,Stephanie,Rogers,Stephanie Rogers,stephanie.rogers@company.com,Sales,Sales Manager,2025-01-08,2025-04-25,38,Other,101000,Terminated,2.69,1.0,4.0,46.9,,,0.6,<1 Year,Below Average
+EMP0046,Susan,Miller,Susan Miller,susan.miller@company.com,HR,HR Manager,2023-06-14,2023-12-04,35,Other,79000,Terminated,2.59,1.0,3.0,56.3,,,2.2,1-3 Years,Below Average
+EMP0047,Sabrina,Bowman,Sabrina Bowman,sabrina.bowman@company.com,Legal,Legal Counsel,2024-11-15,,24,Other,88000,Active,2.59,2.0,6.0,34.1,3.39,3.18,0.7,<1 Year,Below Average
+EMP0048,Gina,Rogers,Gina Rogers,gina.rogers@company.com,Marketing,Marketing Manager,2024-02-26,,33,Female,88000,Active,2.75,1.0,3.0,58.0,3.35,3.52,1.5,1-3 Years,Below Average
+EMP0049,Damon,Wilkinson,Damon Wilkinson,damon.wilkinson@company.com,Engineering,Software Engineer,2024-01-15,,21,Male,72000,Active,2.86,3.0,7.0,54.6,3.19,3.44,1.6,1-3 Years,Below Average
+EMP0050,Daniel,Baker,Daniel Baker,daniel.baker@company.com,Legal,Legal Counsel,2025-03-18,,20,Male,101000,Active,2.83,2.0,5.0,48.3,,,0.4,<1 Year,Below Average
+EMP0051,Danielle,Ibarra,Danielle Ibarra,danielle.ibarra@company.com,Finance,Financial Analyst,2018-08-22,,29,Female,75000,Active,3.16,2.0,6.0,46.6,3.86,4.18,7.0,5-10 Years,Average
+EMP0052,Tiffany,Holland,Tiffany Holland,tiffany.holland@company.com,Legal,Legal Counsel,2022-08-21,,25,Other,110000,Active,3.29,2.0,4.0,60.4,3.29,3.28,3.0,1-3 Years,Average
+EMP0053,Antonio,Bennett,Antonio Bennett,antonio.bennett@company.com,Marketing,Marketing Specialist,2020-01-06,,32,Male,60000,Active,2.84,3.0,6.0,62.8,3.77,3.69,5.6,5-10 Years,Below Average
+EMP0054,Leslie,Johnson,Leslie Johnson,leslie.johnson@company.com,IT,IT Specialist,2021-02-12,,27,Female,75000,Active,3.23,5.0,8.0,72.8,3.5,3.94,4.5,3-5 Years,Average
+EMP0055,Melanie,Garcia,Melanie Garcia,melanie.garcia@company.com,Engineering,Software Engineer,2023-10-19,,24,Female,72000,Active,3.25,3.0,5.0,61.5,3.67,3.51,1.8,1-3 Years,Average
+EMP0056,Heather,Alexander,Heather Alexander,heather.alexander@company.com,Marketing,Marketing Manager,2020-07-10,,39,Female,89000,Active,3.16,2.0,4.0,54.7,3.58,4.11,5.1,5-10 Years,Average
+EMP0057,Alexis,Scott,Alexis Scott,alexis.scott@company.com,Legal,Legal Counsel,2025-06-08,,21,Female,93000,Terminated,,,,,,,0.2,<1 Year,
+EMP0058,Megan,Johnson,Megan Johnson,megan.johnson@company.com,IT,Senior IT,2025-03-08,,27,Female,84000,Active,2.66,1.0,3.0,49.2,,,0.4,<1 Year,Below Average
+EMP0059,David,Davis,David Davis,david.davis@company.com,Operations,Operations Analyst,2025-07-12,,20,Male,54000,Active,,,,,,,0.1,<1 Year,
+EMP0060,Jessica,Campbell,Jessica Campbell,jessica.campbell@company.com,Customer Service,Director Support,2024-10-31,,46,Other,125000,Active,2.92,4.0,7.0,59.0,3.04,2.97,0.8,<1 Year,Below Average
+EMP0061,Jake,Miller,Jake Miller,jake.miller@company.com,Customer Service,Support Rep,2024-08-20,,24,Male,45000,Active,2.64,1.0,4.0,41.1,3.18,3.27,1.0,<1 Year,Below Average
+EMP0062,Brooke,Bowman,Brooke Bowman,brooke.bowman@company.com,HR,HR Generalist,2024-12-26,,20,Female,50000,Active,3.56,3.0,5.0,74.6,3.23,3.15,0.6,<1 Year,Average
+EMP0063,Thomas,Smith,Thomas Smith,thomas.smith@company.com,Product,Product Manager,2022-02-03,,29,Male,87000,Active,3.44,3.0,6.0,64.0,3.51,3.44,3.5,3-5 Years,Average
+EMP0064,Victor,Flores,Victor Flores,victor.flores@company.com,HR,HR Generalist,2024-09-26,,24,Male,49000,Active,2.63,2.0,7.0,37.1,3.23,3.66,0.9,<1 Year,Below Average
+EMP0065,Spencer,Mueller,Spencer Mueller,spencer.mueller@company.com,Finance,Financial Analyst,2024-12-17,,27,Male,60000,Active,3.55,4.0,7.0,60.8,3.36,3.11,0.7,<1 Year,Average
+EMP0066,Tristan,Lewis,Tristan Lewis,tristan.lewis@company.com,Sales,Sales Manager,2024-01-21,,40,Male,95000,Active,2.96,3.0,8.0,44.5,3.17,2.48,1.6,1-3 Years,Below Average
+EMP0067,Maria,Dudley,Maria Dudley,maria.dudley@company.com,Customer Service,Support Rep,2025-04-26,,25,Other,42000,Active,2.83,2.0,8.0,37.0,,,0.3,<1 Year,Below Average
+EMP0068,Crystal,Schwartz,Crystal Schwartz,crystal.schwartz@company.com,Sales,Sales Rep,2022-05-20,,26,Other,50000,Active,2.95,2.0,5.0,50.5,3.42,3.58,3.2,3-5 Years,Below Average
+EMP0069,Christina,Hernandez,Christina Hernandez,christina.hernandez@company.com,Engineering,Senior Engineer,2025-06-19,,30,Female,94000,Active,,,,,,,0.2,<1 Year,
+EMP0070,Anthony,Carpenter,Anthony Carpenter,anthony.carpenter@company.com,Operations,Operations Manager,2016-12-16,,36,Male,100000,Active,3.12,3.0,6.0,57.2,3.27,2.92,8.7,5-10 Years,Average
+EMP0071,Jocelyn,Miller,Jocelyn Miller,jocelyn.miller@company.com,Legal,Legal Counsel,2022-08-30,,27,Female,104000,Active,3.34,2.0,3.0,75.0,3.77,4.1,3.0,1-3 Years,Average
+EMP0072,Jacqueline,Murray,Jacqueline Murray,jacqueline.murray@company.com,Marketing,Marketing Specialist,2025-03-06,,25,Other,59000,Active,2.91,2.0,7.0,41.4,,,0.4,<1 Year,Below Average
+EMP0073,Ryan,Blevins,Ryan Blevins,ryan.blevins@company.com,IT,Senior IT,2025-08-10,,27,Male,82000,Active,,,,,,,0.0,<1 Year,
+EMP0074,Travis,Brown,Travis Brown,travis.brown@company.com,Customer Service,Senior Support Rep,2022-03-30,,35,Male,61000,Active,2.3,0.0,3.0,26.3,3.42,3.39,3.4,3-5 Years,Below Average
+EMP0075,Christina,Garrett,Christina Garrett,christina.garrett@company.com,HR,HR Manager,2023-03-03,,31,Female,79000,Active,2.99,3.0,6.0,64.5,3.23,3.96,2.5,1-3 Years,Below Average
+EMP0076,Jessica,Hunt,Jessica Hunt,jessica.hunt@company.com,Legal,Senior Counsel,2023-01-04,,30,Female,141000,Active,3.13,2.0,3.0,72.2,2.98,3.25,2.6,1-3 Years,Average
+EMP0077,Gregory,Lindsey,Gregory Lindsey,gregory.lindsey@company.com,Finance,Financial Analyst,2022-09-03,,21,Male,59000,Active,3.57,3.0,5.0,79.4,3.73,4.11,2.9,1-3 Years,Average
+EMP0078,Rachel,Simmons,Rachel Simmons,rachel.simmons@company.com,IT,IT Manager,2025-06-19,,41,Female,129000,Terminated,,,,,,,0.2,<1 Year,
+EMP0079,Linda,Rhodes,Linda Rhodes,linda.rhodes@company.com,HR,HR Manager,2024-09-24,,33,Other,69000,Active,2.63,3.0,7.0,49.4,3.41,3.44,0.9,<1 Year,Below Average
+EMP0080,Jessica,Flores,Jessica Flores,jessica.flores@company.com,Engineering,Tech Lead,2025-05-17,,36,Other,143000,Active,,,,,,,0.2,<1 Year,
+EMP0081,Julian,Mitchell,Julian Mitchell,julian.mitchell@company.com,Marketing,Director Marketing,2021-08-24,,45,Male,113000,Active,3.22,2.0,5.0,51.1,3.54,2.86,4.0,3-5 Years,Average
+EMP0082,Darius,Jimenez,Darius Jimenez,darius.jimenez@company.com,Sales,Sales Rep,2023-09-02,,28,Male,60000,Active,3.36,3.0,6.0,51.4,3.38,3.32,1.9,1-3 Years,Average
+EMP0083,Rebecca,Mitchell,Rebecca Mitchell,rebecca.mitchell@company.com,Operations,COO,2024-10-25,,51,Other,154000,Active,3.52,3.0,6.0,50.8,3.38,4.18,0.8,<1 Year,Average
+EMP0084,Cynthia,Castillo,Cynthia Castillo,cynthia.castillo@company.com,Product,Director Product,2025-06-28,,42,Other,142000,Active,,,,,,,0.1,<1 Year,
+EMP0085,Charles,Thompson,Charles Thompson,charles.thompson@company.com,Finance,Senior Analyst,2024-11-16,,30,Male,79000,Active,3.25,2.0,4.0,71.5,3.44,3.76,0.7,<1 Year,Average
+EMP0086,Brian,Vaughn,Brian Vaughn,brian.vaughn@company.com,Finance,Financial Analyst,2024-10-31,,27,Male,56000,Active,3.37,5.0,8.0,70.1,3.73,3.79,0.8,<1 Year,Average
+EMP0087,Christopher,Pace,Christopher Pace,christopher.pace@company.com,HR,HR Generalist,2023-01-03,,24,Male,49000,Active,3.13,2.0,4.0,71.8,3.51,3.79,2.6,1-3 Years,Average
+EMP0088,Laurie,Contreras,Laurie Contreras,laurie.contreras@company.com,Operations,Operations Manager,2023-08-05,,32,Female,87000,Active,3.11,1.0,3.0,43.1,3.51,3.4,2.0,1-3 Years,Average
+EMP0089,Brenda,Peterson,Brenda Peterson,brenda.peterson@company.com,IT,IT Manager,2021-04-04,2024-09-24,45,Female,132000,Terminated,2.94,3.0,7.0,51.4,3.88,3.49,4.4,3-5 Years,Below Average
+EMP0090,Melissa,Kaiser,Melissa Kaiser,melissa.kaiser@company.com,Finance,Senior Analyst,2024-05-05,,34,Female,85000,Active,2.81,2.0,7.0,40.6,3.88,4.15,1.3,1-3 Years,Below Average
+EMP0091,Pamela,Cunningham,Pamela Cunningham,pamela.cunningham@company.com,Legal,Senior Counsel,2025-05-14,,34,Other,115000,Active,2.94,2.0,4.0,68.0,,,0.3,<1 Year,Below Average
+EMP0092,Krista,Waller,Krista Waller,krista.waller@company.com,Product,Product Manager,2023-02-15,,27,Female,92000,Active,2.83,2.0,4.0,53.7,3.73,4.38,2.5,1-3 Years,Below Average
+EMP0093,Bianca,Cantrell,Bianca Cantrell,bianca.cantrell@company.com,Marketing,CMO,2022-10-05,,51,Female,181000,Active,2.81,3.0,5.0,60.8,3.49,3.37,2.9,1-3 Years,Below Average
+EMP0094,Sherry,Berger,Sherry Berger,sherry.berger@company.com,Engineering,Software Engineer,2023-12-22,,27,Other,74000,Active,2.79,2.0,6.0,42.1,4.06,4.3,1.6,1-3 Years,Below Average
+EMP0095,Tracey,Miller,Tracey Miller,tracey.miller@company.com,Customer Service,Support Rep,2022-09-04,,26,Female,47000,Active,2.79,2.0,5.0,50.5,2.98,3.43,2.9,1-3 Years,Below Average
+EMP0096,Jessica,Lewis,Jessica Lewis,jessica.lewis@company.com,Finance,Senior Analyst,2024-04-05,,32,Female,91000,Active,3.38,2.0,4.0,73.3,3.83,3.93,1.4,1-3 Years,Average
+EMP0097,Mindy,Brown,Mindy Brown,mindy.brown@company.com,Engineering,Senior Engineer,2024-02-22,2024-11-17,31,Female,105000,Terminated,2.94,2.0,5.0,58.4,4.06,4.14,1.5,1-3 Years,Below Average
+EMP0098,Amy,May,Amy May,amy.may@company.com,Engineering,Senior Engineer,2024-07-03,,31,Other,108000,Active,3.26,5.0,8.0,74.2,3.4,3.19,1.1,1-3 Years,Average
+EMP0099,Cynthia,Contreras,Cynthia Contreras,cynthia.contreras@company.com,Marketing,Marketing Specialist,2025-07-27,,20,Other,57000,Active,,,,,,,0.0,<1 Year,
+EMP0100,Christopher,Stein,Christopher Stein,christopher.stein@company.com,Product,Senior PM,2025-05-23,,29,Male,116000,Active,,,,,,,0.2,<1 Year,
+EMP0101,Katie,Wolfe,Katie Wolfe,katie.wolfe@company.com,Sales,Senior Sales Rep,2025-07-22,,31,Other,65000,Active,,,,,,,0.1,<1 Year,
+EMP0102,Michael,Aguilar,Michael Aguilar,michael.aguilar@company.com,Finance,Senior Analyst,2023-08-07,,35,Male,84000,Active,3.16,4.0,8.0,53.0,3.45,3.28,2.0,1-3 Years,Average
+EMP0103,Elizabeth,Cantu,Elizabeth Cantu,elizabeth.cantu@company.com,HR,HR Generalist,2024-11-12,,22,Other,47000,Active,3.6,2.0,5.0,57.6,3.58,3.5,0.8,<1 Year,Average
+EMP0104,Carrie,Hudson,Carrie Hudson,carrie.hudson@company.com,IT,IT Manager,2024-03-14,,36,Female,118000,Active,3.03,3.0,6.0,52.7,3.25,3.02,1.4,1-3 Years,Average
+EMP0105,Michele,Schroeder,Michele Schroeder,michele.schroeder@company.com,Operations,Operations Analyst,2020-11-10,,23,Female,69000,Active,3.43,2.0,4.0,52.8,3.21,3.15,4.8,3-5 Years,Average
+EMP0106,Casey,Lindsey,Casey Lindsey,casey.lindsey@company.com,Sales,Sales Rep,2025-01-17,,26,Female,54000,Active,3.14,2.0,4.0,52.4,3.18,2.75,0.6,<1 Year,Average
+EMP0107,Colleen,Scott,Colleen Scott,colleen.scott@company.com,Marketing,Marketing Manager,2024-07-25,,32,Female,81000,Active,2.78,4.0,7.0,58.6,3.38,2.9,1.1,1-3 Years,Below Average
+EMP0108,Erin,Gordon,Erin Gordon,erin.gordon@company.com,Product,Product Manager,2022-10-21,,25,Other,85000,Active,3.05,1.0,3.0,50.0,3.99,3.1,2.8,1-3 Years,Average
+EMP0109,Robert,Ward,Robert Ward,robert.ward@company.com,Sales,Sales Rep,2025-02-06,,26,Male,52000,Active,3.03,4.0,6.0,67.2,3.15,2.98,0.5,<1 Year,Average
+EMP0110,Lindsay,Riddle,Lindsay Riddle,lindsay.riddle@company.com,Customer Service,Support Rep,2025-06-17,,24,Other,38000,Active,,,,,,,0.2,<1 Year,
+EMP0111,Donald,Romero,Donald Romero,donald.romero@company.com,Operations,Operations Manager,2024-12-08,,31,Male,79000,Active,2.98,2.0,6.0,40.3,3.59,3.98,0.7,<1 Year,Below Average
+EMP0112,Jessica,Barron,Jessica Barron,jessica.barron@company.com,HR,HR Generalist,2025-04-08,,26,Other,52000,Active,3.08,1.0,4.0,48.0,,,0.4,<1 Year,Average
+EMP0113,James,Haynes,James Haynes,james.haynes@company.com,Product,Senior PM,2020-04-24,,32,Male,119000,Active,2.84,2.0,5.0,43.8,3.72,4.13,5.3,5-10 Years,Below Average
+EMP0114,Tyler,Summers,Tyler Summers,tyler.summers@company.com,Customer Service,Senior Support Rep,2022-04-27,,35,Male,61000,Active,3.05,3.0,8.0,43.9,3.09,3.03,3.3,3-5 Years,Average
+EMP0115,Brittany,Watkins,Brittany Watkins,brittany.watkins@company.com,Operations,Operations Analyst,2023-08-13,,26,Other,57000,Active,3.1,3.0,5.0,60.3,3.36,3.54,2.0,1-3 Years,Average
+EMP0116,Monica,Wright,Monica Wright,monica.wright@company.com,Finance,Financial Analyst,2021-07-09,,26,Female,66000,Active,3.03,2.0,5.0,42.2,3.42,3.17,4.1,3-5 Years,Average
+EMP0117,Megan,Santiago,Megan Santiago,megan.santiago@company.com,Legal,General Counsel,2022-05-14,,49,Other,262000,Active,3.5,5.0,7.0,72.9,3.41,3.44,3.3,3-5 Years,Average
+EMP0118,Tiffany,Garza,Tiffany Garza,tiffany.garza@company.com,Finance,Senior Analyst,2025-03-17,,35,Female,84000,Active,3.31,4.0,8.0,57.2,,,0.4,<1 Year,Average
+EMP0119,David,Peterson,David Peterson,david.peterson@company.com,HR,HR Generalist,2021-02-28,,27,Male,51000,Active,3.0,1.0,3.0,51.6,3.8,2.8,4.5,3-5 Years,Below Average
+EMP0120,Kristen,Watts,Kristen Watts,kristen.watts@company.com,Marketing,Marketing Specialist,2024-01-27,,28,Other,56000,Active,3.09,3.0,5.0,67.0,3.66,3.83,1.5,1-3 Years,Average
+EMP0121,Douglas,Young,Douglas Young,douglas.young@company.com,Product,Product Manager,2022-04-30,2024-03-02,29,Male,89000,Terminated,3.02,3.0,5.0,61.8,3.17,3.54,3.3,3-5 Years,Average
+EMP0122,Kathy,Dalton,Kathy Dalton,kathy.dalton@company.com,Marketing,CMO,2021-02-04,,54,Female,170000,Active,2.7,4.0,7.0,60.1,3.07,3.3,4.5,3-5 Years,Below Average
+EMP0123,Christopher,Austin,Christopher Austin,christopher.austin@company.com,Customer Service,Support Rep,2024-11-08,,19,Male,38000,Active,3.24,5.0,8.0,62.8,2.86,2.86,0.8,<1 Year,Average
+EMP0124,Lisa,Gill,Lisa Gill,lisa.gill@company.com,Finance,Financial Analyst,2025-05-21,,27,Other,65000,Active,,,,,,,0.2,<1 Year,
+EMP0125,Julia,Butler,Julia Butler,julia.butler@company.com,IT,Senior IT,2025-02-07,,35,Other,85000,Active,2.86,4.0,8.0,52.6,3.19,3.42,0.5,<1 Year,Below Average
+EMP0126,Jennifer,Flores,Jennifer Flores,jennifer.flores@company.com,Finance,Finance Manager,2024-07-04,,40,Female,118000,Active,3.29,1.0,3.0,50.4,3.6,4.02,1.1,1-3 Years,Average
+EMP0127,Jeremy,Parker,Jeremy Parker,jeremy.parker@company.com,IT,CTO,2022-03-20,2023-08-17,49,Male,170000,Terminated,2.83,2.0,7.0,38.7,3.05,3.63,3.4,3-5 Years,Below Average
+EMP0128,Juan,Howell,Juan Howell,juan.howell@company.com,Marketing,Marketing Specialist,2021-09-05,,24,Male,56000,Active,2.58,1.0,4.0,41.2,3.6,3.79,3.9,3-5 Years,Below Average
+EMP0129,Diana,Frey,Diana Frey,diana.frey@company.com,IT,IT Specialist,2025-08-09,,23,Female,70000,Terminated,,,,,,,0.0,<1 Year,
+EMP0130,Samantha,Patel,Samantha Patel,samantha.patel@company.com,Product,Product Manager,2024-03-11,,24,Other,91000,Active,3.01,5.0,8.0,64.8,3.32,3.75,1.4,1-3 Years,Average
+EMP0131,Lorraine,Mendoza,Lorraine Mendoza,lorraine.mendoza@company.com,IT,Senior IT,2024-07-16,,34,Other,81000,Active,3.32,1.0,3.0,63.7,3.61,3.88,1.1,1-3 Years,Average
+EMP0132,Daniel,Fox,Daniel Fox,daniel.fox@company.com,Marketing,Director Marketing,2025-02-12,,36,Male,102000,Active,2.85,2.0,6.0,48.7,3.55,3.03,0.5,<1 Year,Below Average
+EMP0133,Alexandra,Romero,Alexandra Romero,alexandra.romero@company.com,IT,Senior IT,2025-05-13,,31,Female,86000,Active,2.53,1.0,5.0,31.2,,,0.3,<1 Year,Below Average
+EMP0134,Tami,Schneider,Tami Schneider,tami.schneider@company.com,Finance,Senior Analyst,2024-10-18,,35,Female,84000,Active,3.29,2.0,3.0,66.8,3.07,3.06,0.8,<1 Year,Average
+EMP0135,Kathryn,Velazquez,Kathryn Velazquez,kathryn.velazquez@company.com,Sales,Senior Sales Rep,2019-11-24,,37,Female,85000,Active,3.23,4.0,6.0,73.1,3.34,3.58,5.7,5-10 Years,Average
+EMP0136,Devin,Olsen,Devin Olsen,devin.olsen@company.com,Sales,Sales Rep,2024-11-03,,19,Male,58000,Active,2.89,2.0,5.0,52.5,3.48,3.25,0.8,<1 Year,Below Average
+EMP0137,Jamie,Weeks,Jamie Weeks,jamie.weeks@company.com,Finance,Senior Analyst,2024-02-28,,30,Other,84000,Active,2.88,2.0,6.0,46.0,3.33,3.21,1.5,1-3 Years,Below Average
+EMP0138,Stephanie,Prince,Stephanie Prince,stephanie.prince@company.com,Product,Director Product,2023-03-12,,43,Other,158000,Active,2.98,3.0,7.0,51.7,3.53,3.47,2.4,1-3 Years,Below Average
+EMP0139,Lisa,Cherry,Lisa Cherry,lisa.cherry@company.com,Sales,Sales Rep,2024-09-19,,24,Female,54000,Active,3.27,2.0,5.0,57.2,3.67,3.37,0.9,<1 Year,Average
+EMP0140,Edwin,Roth,Edwin Roth,edwin.roth@company.com,Operations,Operations Analyst,2018-06-28,,32,Male,72000,Active,3.58,4.0,6.0,75.4,3.47,3.43,7.1,5-10 Years,Average
+EMP0141,Vicki,Williams,Vicki Williams,vicki.williams@company.com,Engineering,Software Engineer,2019-01-23,,30,Other,84000,Active,2.49,1.0,5.0,34.8,3.89,3.98,6.6,5-10 Years,Below Average
+EMP0142,Darlene,Boyd,Darlene Boyd,darlene.boyd@company.com,Legal,Legal Director,2025-01-15,2025-08-04,43,Female,165000,Terminated,3.31,2.0,4.0,57.5,3.08,2.93,0.6,<1 Year,Average
+EMP0143,Cameron,Adams,Cameron Adams,cameron.adams@company.com,HR,HR Manager,2024-03-31,,35,Male,76000,Active,3.23,4.0,7.0,67.1,3.41,3.97,1.4,1-3 Years,Average
+EMP0144,Nicholas,Bright,Nicholas Bright,nicholas.bright@company.com,HR,HR Generalist,2024-11-26,,23,Male,51000,Active,3.09,2.0,3.0,68.6,3.4,2.51,0.7,<1 Year,Average
+EMP0145,Melissa,Cardenas,Melissa Cardenas,melissa.cardenas@company.com,Product,Product Manager,2024-12-13,,22,Other,87000,Active,3.04,4.0,8.0,56.6,3.42,3.51,0.7,<1 Year,Average
+EMP0146,Cindy,Graham,Cindy Graham,cindy.graham@company.com,Legal,Legal Counsel,2025-07-18,,22,Female,103000,Active,,,,,,,0.1,<1 Year,
+EMP0147,Jeffrey,Delgado,Jeffrey Delgado,jeffrey.delgado@company.com,Product,Director Product,2023-09-28,,38,Male,151000,Active,3.12,4.0,7.0,58.0,3.56,3.76,1.9,1-3 Years,Average
+EMP0148,Brittany,Jennings,Brittany Jennings,brittany.jennings@company.com,Finance,Senior Analyst,2024-03-23,,35,Other,94000,Active,3.29,3.0,7.0,56.8,3.65,3.68,1.4,1-3 Years,Average
+EMP0149,Jeffrey,Clark,Jeffrey Clark,jeffrey.clark@company.com,Product,Senior PM,2025-07-07,,35,Male,119000,Active,,,,,,,0.1,<1 Year,
+EMP0150,Brian,Chen,Brian Chen,brian.chen@company.com,Sales,Sales Rep,2024-12-19,,25,Male,50000,Active,2.88,2.0,6.0,43.0,3.06,3.41,0.7,<1 Year,Below Average
+EMP0151,Kendra,Garcia,Kendra Garcia,kendra.garcia@company.com,Finance,Finance Manager,2020-11-05,,43,Other,137000,Active,2.91,3.0,7.0,53.5,3.17,3.26,4.8,3-5 Years,Below Average
+EMP0152,Jennifer,Williams,Jennifer Williams,jennifer.williams@company.com,Product,Director Product,2025-01-27,,42,Other,140000,Active,2.63,2.0,8.0,32.7,3.74,3.29,0.5,<1 Year,Below Average
+EMP0153,Lori,Adams,Lori Adams,lori.adams@company.com,Legal,Legal Counsel,2025-04-22,,22,Other,103000,Active,3.52,3.0,5.0,73.9,,,0.3,<1 Year,Average
+EMP0154,Gregory,King,Gregory King,gregory.king@company.com,IT,IT Specialist,2024-04-11,,26,Male,61000,Active,2.94,2.0,4.0,57.0,3.72,3.64,1.3,1-3 Years,Below Average
+EMP0155,Jessica,Smith,Jessica Smith,jessica.smith@company.com,Product,Senior PM,2017-02-19,,41,Other,154000,Active,3.57,2.0,4.0,73.4,3.61,3.3,8.5,5-10 Years,Average
+EMP0156,Melissa,Smith,Melissa Smith,melissa.smith@company.com,Marketing,Marketing Specialist,2025-01-24,2025-06-27,24,Other,62000,Terminated,3.5,3.0,4.0,75.1,,,0.6,<1 Year,Average
+EMP0157,Jessica,Thomas,Jessica Thomas,jessica.thomas@company.com,Sales,Senior Sales Rep,2023-05-23,,31,Female,74000,Active,2.75,1.0,4.0,36.6,2.88,3.02,2.2,1-3 Years,Below Average
+EMP0158,Shelley,Jacobs,Shelley Jacobs,shelley.jacobs@company.com,Marketing,Marketing Specialist,2022-10-03,,25,Other,58000,Active,2.66,1.0,4.0,45.7,3.77,3.57,2.9,1-3 Years,Below Average
+EMP0159,Heather,Montgomery,Heather Montgomery,heather.montgomery@company.com,Customer Service,Senior Support Rep,2025-01-28,,35,Other,55000,Active,3.02,3.0,7.0,44.4,2.8,2.38,0.5,<1 Year,Average
+EMP0160,Kimberly,Meadows,Kimberly Meadows,kimberly.meadows@company.com,Product,Director Product,2023-01-06,2023-06-15,40,Female,159000,Terminated,2.84,1.0,3.0,58.4,,,2.6,1-3 Years,Below Average
+EMP0161,Nicole,Humphrey,Nicole Humphrey,nicole.humphrey@company.com,HR,HR Manager,2024-09-14,,28,Female,78000,Active,3.03,3.0,6.0,55.6,3.16,3.02,0.9,<1 Year,Average
+EMP0162,Emily,Roberson,Emily Roberson,emily.roberson@company.com,Sales,Sales Rep,2023-08-15,,20,Other,48000,Active,3.34,2.0,5.0,57.2,3.36,2.56,2.0,1-3 Years,Average
+EMP0163,Patrick,Meyer,Patrick Meyer,patrick.meyer@company.com,Finance,Financial Analyst,2023-08-13,,24,Male,65000,Active,3.12,2.0,4.0,61.6,3.36,3.5,2.0,1-3 Years,Average
+EMP0164,Marissa,Cherry,Marissa Cherry,marissa.cherry@company.com,Marketing,Marketing Specialist,2024-02-01,2025-07-20,26,Other,60000,Terminated,3.21,3.0,6.0,52.4,3.43,3.46,1.5,1-3 Years,Average
+EMP0165,Steven,Dixon,Steven Dixon,steven.dixon@company.com,Product,Director Product,2025-06-06,,42,Male,149000,Active,,,,,,,0.2,<1 Year,
+EMP0166,Jodi,Brown,Jodi Brown,jodi.brown@company.com,Finance,Senior Analyst,2022-01-06,,37,Female,98000,Active,3.5,2.0,3.0,69.9,3.07,3.7,3.6,3-5 Years,Average
+EMP0167,Molly,Casey,Molly Casey,molly.casey@company.com,Legal,Legal Counsel,2024-11-05,,24,Other,105000,Active,3.12,4.0,8.0,58.6,3.25,3.87,0.8,<1 Year,Average
+EMP0168,Angela,Smith,Angela Smith,angela.smith@company.com,Customer Service,Senior Support Rep,2025-03-17,,31,Female,52000,Active,2.7,4.0,8.0,56.5,,,0.4,<1 Year,Below Average
+EMP0169,Samantha,Santiago,Samantha Santiago,samantha.santiago@company.com,Product,Product Manager,2025-07-15,,24,Female,83000,Active,,,,,,,0.1,<1 Year,
+EMP0170,Katelyn,Sandoval,Katelyn Sandoval,katelyn.sandoval@company.com,Finance,Financial Analyst,2023-11-01,,26,Other,61000,Active,3.08,1.0,3.0,62.3,3.47,2.9,1.8,1-3 Years,Average
+EMP0171,Carolyn,Cook,Carolyn Cook,carolyn.cook@company.com,Engineering,Tech Lead,2023-05-11,,41,Other,151000,Active,2.89,4.0,8.0,58.3,3.34,3.75,2.3,1-3 Years,Below Average
+EMP0172,Christopher,Keller,Christopher Keller,christopher.keller@company.com,IT,IT Manager,2025-08-02,,38,Male,121000,Active,,,,,,,0.0,<1 Year,
+EMP0173,Amanda,Nolan,Amanda Nolan,amanda.nolan@company.com,Marketing,Marketing Manager,2024-03-09,,28,Other,76000,Active,3.17,2.0,4.0,53.1,3.37,2.96,1.4,1-3 Years,Average
+EMP0174,Nicole,Holden,Nicole Holden,nicole.holden@company.com,Engineering,Senior Engineer,2025-02-08,,28,Female,108000,Active,3.24,2.0,5.0,52.8,3.38,3.51,0.5,<1 Year,Average
+EMP0175,Jennifer,Jimenez,Jennifer Jimenez,jennifer.jimenez@company.com,Customer Service,Support Rep,2023-07-20,,29,Female,47000,Active,3.32,2.0,4.0,73.3,3.65,3.76,2.1,1-3 Years,Average
+EMP0176,Linda,Shea,Linda Shea,linda.shea@company.com,Legal,Senior Counsel,2025-03-28,,29,Female,117000,Active,2.94,1.0,3.0,42.4,,,0.4,<1 Year,Below Average
+EMP0177,Theresa,Ramos,Theresa Ramos,theresa.ramos@company.com,Finance,Senior Analyst,2023-04-10,,30,Female,86000,Active,3.05,3.0,8.0,47.5,3.76,3.58,2.3,1-3 Years,Average
+EMP0178,Eric,Ellis,Eric Ellis,eric.ellis@company.com,Marketing,Marketing Manager,2024-08-23,,33,Male,87000,Active,2.54,3.0,7.0,54.3,3.17,3.61,1.0,<1 Year,Below Average
+EMP0179,Tasha,Wheeler,Tasha Wheeler,tasha.wheeler@company.com,Operations,Operations Analyst,2020-02-07,,28,Other,65000,Active,3.14,3.0,7.0,49.9,3.61,3.63,5.5,5-10 Years,Average
+EMP0180,Katherine,Richardson,Katherine Richardson,katherine.richardson@company.com,Operations,Operations Manager,2025-04-29,,33,Female,83000,Active,2.72,4.0,7.0,59.0,,,0.3,<1 Year,Below Average
+EMP0181,Tracy,Walker,Tracy Walker,tracy.walker@company.com,Sales,Senior Sales Rep,2024-10-14,,35,Female,70000,Active,2.9,3.0,8.0,47.7,2.96,3.09,0.8,<1 Year,Below Average
+EMP0182,Sophia,Phillips,Sophia Phillips,sophia.phillips@company.com,HR,HR Manager,2025-05-19,,34,Other,79000,Active,,,,,,,0.2,<1 Year,
+EMP0183,Michelle,Gonzalez,Michelle Gonzalez,michelle.gonzalez@company.com,Customer Service,Support Rep,2020-06-14,2020-11-27,28,Female,52000,Terminated,3.41,2.0,4.0,53.6,,,5.2,5-10 Years,Average
+EMP0184,Joseph,Huffman,Joseph Huffman,joseph.huffman@company.com,Sales,Sales Rep,2021-06-05,,29,Male,56000,Active,2.88,5.0,8.0,66.0,3.04,2.85,4.2,3-5 Years,Below Average
+EMP0185,Courtney,Simpson,Courtney Simpson,courtney.simpson@company.com,Legal,Legal Counsel,2025-01-09,,21,Other,102000,Active,3.15,3.0,7.0,53.7,2.85,3.31,0.6,<1 Year,Average
+EMP0186,Jennifer,Brady,Jennifer Brady,jennifer.brady@company.com,Sales,Sales Manager,2023-06-19,,41,Other,97000,Active,3.36,3.0,7.0,54.5,3.11,3.0,2.2,1-3 Years,Average
+EMP0187,Kara,Jones,Kara Jones,kara.jones@company.com,HR,HR Generalist,2022-03-23,,27,Female,51000,Active,3.11,1.0,4.0,49.9,4.01,3.8,3.4,3-5 Years,Average
+EMP0188,Joy,Hunter,Joy Hunter,joy.hunter@company.com,Operations,Operations Manager,2024-01-01,,33,Other,72000,Active,3.04,2.0,6.0,43.2,3.33,3.51,1.6,1-3 Years,Average
+EMP0189,Kimberly,Smith,Kimberly Smith,kimberly.smith@company.com,HR,CHRO,2024-02-11,,51,Female,135000,Active,2.81,1.0,3.0,45.8,3.79,3.47,1.5,1-3 Years,Below Average
+EMP0190,William,Thornton,William Thornton,william.thornton@company.com,IT,CTO,2025-01-24,2025-06-05,46,Male,186000,Terminated,2.69,3.0,7.0,54.7,,,0.6,<1 Year,Below Average
+EMP0191,Tammy,Hughes,Tammy Hughes,tammy.hughes@company.com,HR,HR Generalist,2025-06-04,,22,Other,52000,Active,,,,,,,0.2,<1 Year,
+EMP0192,Curtis,Richards,Curtis Richards,curtis.richards@company.com,Operations,Operations Manager,2021-01-27,,31,Male,82000,Active,3.2,3.0,7.0,48.3,3.5,3.18,4.5,3-5 Years,Average
+EMP0193,Jose,Campbell,Jose Campbell,jose.campbell@company.com,Marketing,Marketing Manager,2021-01-04,,32,Male,90000,Active,3.18,3.0,5.0,69.6,3.57,3.37,4.6,3-5 Years,Average
+EMP0194,Albert,Schmidt,Albert Schmidt,albert.schmidt@company.com,Marketing,Marketing Specialist,2023-08-14,,24,Male,60000,Active,2.64,2.0,5.0,53.3,3.52,3.21,2.0,1-3 Years,Below Average
+EMP0195,Marcus,Malone,Marcus Malone,marcus.malone@company.com,Marketing,Marketing Specialist,2024-10-16,,25,Male,58000,Active,2.83,3.0,5.0,62.9,3.85,4.08,0.8,<1 Year,Below Average
+EMP0196,Cathy,Webster,Cathy Webster,cathy.webster@company.com,Sales,Sales Rep,2024-10-05,,27,Other,53000,Active,2.74,3.0,8.0,46.3,3.14,2.87,0.9,<1 Year,Below Average
+EMP0197,Jessica,Howard,Jessica Howard,jessica.howard@company.com,Legal,Legal Counsel,2023-01-13,,29,Female,94000,Active,3.12,2.0,5.0,44.3,3.23,3.16,2.6,1-3 Years,Average
+EMP0198,Heather,Hansen,Heather Hansen,heather.hansen@company.com,Engineering,Software Engineer,2021-01-27,,29,Other,85000,Active,3.09,1.0,4.0,43.7,3.41,4.35,4.5,3-5 Years,Average
+EMP0199,Scott,Sanchez,Scott Sanchez,scott.sanchez@company.com,Product,Senior PM,2021-04-05,,32,Male,122000,Active,3.79,1.0,3.0,61.3,3.75,4.04,4.4,3-5 Years,Average
+EMP0200,Mark,Robinson,Mark Robinson,mark.robinson@company.com,Sales,Sales Rep,2022-08-06,,30,Male,58000,Active,2.57,2.0,5.0,48.3,3.32,2.72,3.0,1-3 Years,Below Average
+EMP0201,Heather,Smith,Heather Smith,heather.smith@company.com,IT,Senior IT,2023-07-27,,35,Female,83000,Active,2.22,3.0,7.0,48.6,3.83,4.02,2.1,1-3 Years,Below Average
+EMP0202,Annette,Garcia,Annette Garcia,annette.garcia@company.com,Sales,Sales Manager,2025-06-11,,43,Other,108000,Active,,,,,,,0.2,<1 Year,
+EMP0203,Eduardo,Hansen,Eduardo Hansen,eduardo.hansen@company.com,Customer Service,Support Rep,2025-04-08,,24,Male,44000,Active,2.89,4.0,7.0,57.6,,,0.4,<1 Year,Below Average
+EMP0204,Elizabeth,Stephens,Elizabeth Stephens,elizabeth.stephens@company.com,Customer Service,Senior Support Rep,2021-01-17,,36,Female,66000,Active,3.35,3.0,5.0,62.9,3.02,3.19,4.6,3-5 Years,Average
+EMP0205,Alexis,Bailey,Alexis Bailey,alexis.bailey@company.com,Marketing,Marketing Manager,2023-10-04,,29,Female,87000,Active,2.89,3.0,5.0,65.6,3.49,3.7,1.9,1-3 Years,Below Average
+EMP0206,Nicholas,Russell,Nicholas Russell,nicholas.russell@company.com,Customer Service,Support Rep,2025-08-08,,21,Male,41000,Active,,,,,,,0.0,<1 Year,
+EMP0207,Valerie,Thompson,Valerie Thompson,valerie.thompson@company.com,Legal,Senior Counsel,2025-05-28,,33,Other,119000,Active,,,,,,,0.2,<1 Year,
+EMP0208,Tammy,Weber,Tammy Weber,tammy.weber@company.com,Customer Service,Support Manager,2023-06-11,,41,Other,83000,Active,2.53,2.0,4.0,51.4,3.29,3.47,2.2,1-3 Years,Below Average
+EMP0209,Megan,Ramirez,Megan Ramirez,megan.ramirez@company.com,Sales,Senior Sales Rep,2025-08-11,,34,Female,66000,Active,,,,,,,0.0,<1 Year,
+EMP0210,Andrew,Lee,Andrew Lee,andrew.lee@company.com,Operations,Director Operations,2025-04-09,,39,Male,110000,Active,3.14,4.0,7.0,59.3,,,0.3,<1 Year,Average
+EMP0211,Dorothy,Robinson,Dorothy Robinson,dorothy.robinson@company.com,Legal,General Counsel,2024-01-12,,52,Female,238000,Active,3.02,2.0,4.0,59.3,3.3,3.61,1.6,1-3 Years,Average
+EMP0212,Teresa,Mendez,Teresa Mendez,teresa.mendez@company.com,Finance,Financial Analyst,2023-04-08,,25,Other,72000,Active,3.18,4.0,7.0,61.7,3.27,3.33,2.4,1-3 Years,Average
+EMP0213,Sarah,Mcdaniel,Sarah Mcdaniel,sarah.mcdaniel@company.com,Engineering,Software Engineer,2023-07-06,,27,Female,73000,Active,3.75,3.0,7.0,55.8,3.89,3.8,2.1,1-3 Years,Average
+EMP0214,Sandra,Compton,Sandra Compton,sandra.compton@company.com,Engineering,Software Engineer,2025-02-10,,25,Other,76000,Active,2.89,5.0,8.0,64.1,3.52,3.28,0.5,<1 Year,Below Average
+EMP0215,Marcia,Tucker,Marcia Tucker,marcia.tucker@company.com,Marketing,Marketing Specialist,2023-02-17,,22,Female,65000,Active,3.01,2.0,5.0,59.3,3.69,3.79,2.5,1-3 Years,Average
+EMP0216,Joshua,Mitchell,Joshua Mitchell,joshua.mitchell@company.com,Marketing,Marketing Manager,2025-01-29,2025-05-09,31,Male,77000,Terminated,2.91,1.0,4.0,46.8,,,0.5,<1 Year,Below Average
+EMP0217,Brittany,Hoover,Brittany Hoover,brittany.hoover@company.com,Product,Senior PM,2024-10-31,,30,Female,122000,Active,3.02,2.0,3.0,69.2,4.15,3.66,0.8,<1 Year,Average
+EMP0218,Joshua,Shepherd,Joshua Shepherd,joshua.shepherd@company.com,Operations,Operations Analyst,2022-11-17,,28,Male,61000,Active,3.59,4.0,7.0,62.5,2.95,3.49,2.7,1-3 Years,Average
+EMP0219,Melissa,Mcmillan,Melissa Mcmillan,melissa.mcmillan@company.com,Engineering,Software Engineer,2023-07-11,,21,Female,72000,Active,2.98,3.0,5.0,67.0,3.33,3.95,2.1,1-3 Years,Below Average
+EMP0220,Judy,Rojas,Judy Rojas,judy.rojas@company.com,HR,HR Manager,2021-11-02,,34,Female,76000,Active,3.22,3.0,8.0,46.7,4.11,3.5,3.8,3-5 Years,Average
+EMP0221,George,Sandoval,George Sandoval,george.sandoval@company.com,Product,Senior PM,2023-06-24,,35,Male,120000,Active,3.04,4.0,7.0,67.9,3.66,4.05,2.1,1-3 Years,Average
+EMP0222,Thomas,Jones,Thomas Jones,thomas.jones@company.com,Legal,Senior Counsel,2023-12-10,,33,Male,116000,Active,3.02,3.0,5.0,67.9,3.19,3.92,1.7,1-3 Years,Average
+EMP0223,Jennifer,Smith,Jennifer Smith,jennifer.smith@company.com,Engineering,Software Engineer,2025-06-04,,20,Other,84000,Active,,,,,,,0.2,<1 Year,
+EMP0224,Elaine,Jones,Elaine Jones,elaine.jones@company.com,Customer Service,Senior Support Rep,2024-09-14,,33,Other,54000,Active,3.31,2.0,5.0,48.2,3.64,3.52,0.9,<1 Year,Average
+EMP0225,Kimberly,Fowler,Kimberly Fowler,kimberly.fowler@company.com,Engineering,Engineering Manager,2025-01-02,,50,Female,202000,Active,2.81,1.0,3.0,62.1,3.53,4.09,0.6,<1 Year,Below Average
+EMP0226,Anna,Lewis,Anna Lewis,anna.lewis@company.com,Sales,Sales Rep,2025-01-22,,25,Female,53000,Active,3.2,3.0,5.0,65.3,3.36,3.72,0.6,<1 Year,Average
+EMP0227,Mary,Cortez,Mary Cortez,mary.cortez@company.com,Sales,Sales Rep,2018-05-27,,31,Other,58000,Active,2.86,4.0,7.0,64.0,3.0,3.12,7.2,5-10 Years,Below Average
+EMP0228,Robert,Robinson,Robert Robinson,robert.robinson@company.com,Sales,Senior Sales Rep,2024-08-15,,35,Male,68000,Active,2.53,2.0,5.0,46.7,3.52,3.24,1.0,<1 Year,Below Average
+EMP0229,Gabriela,Harris,Gabriela Harris,gabriela.harris@company.com,Operations,Operations Manager,2021-03-03,,33,Female,81000,Active,2.99,1.0,3.0,50.1,3.31,3.83,4.4,3-5 Years,Below Average
+EMP0230,Anthony,Lewis,Anthony Lewis,anthony.lewis@company.com,Finance,Financial Analyst,2023-08-17,,21,Male,60000,Active,3.02,2.0,6.0,49.4,3.38,3.92,2.0,1-3 Years,Average
+EMP0231,Alejandra,Johnson,Alejandra Johnson,alejandra.johnson@company.com,Product,Product Manager,2022-06-15,,29,Other,93000,Active,2.9,3.0,7.0,48.1,3.84,4.53,3.2,3-5 Years,Below Average
+EMP0232,Monica,Williams,Monica Williams,monica.williams@company.com,IT,IT Specialist,2024-03-23,,25,Other,63000,Active,2.68,1.0,4.0,34.5,3.69,4.23,1.4,1-3 Years,Below Average
+EMP0233,Kenneth,Parrish,Kenneth Parrish,kenneth.parrish@company.com,Product,Product Manager,2023-11-26,,24,Male,87000,Active,3.35,3.0,5.0,61.1,3.29,3.68,1.7,1-3 Years,Average
+EMP0234,Courtney,Thompson,Courtney Thompson,courtney.thompson@company.com,Legal,Legal Counsel,2024-04-06,,20,Female,85000,Active,3.08,3.0,5.0,70.3,3.55,2.94,1.4,1-3 Years,Average
+EMP0235,Colleen,Yang,Colleen Yang,colleen.yang@company.com,Sales,Senior Sales Rep,2025-03-09,,28,Female,74000,Active,3.25,1.0,3.0,59.8,,,0.4,<1 Year,Average
+EMP0236,Amber,Collins,Amber Collins,amber.collins@company.com,Customer Service,Support Rep,2023-01-22,,21,Other,43000,Active,3.34,4.0,8.0,56.7,3.19,3.53,2.6,1-3 Years,Average
+EMP0237,Jamie,Graham,Jamie Graham,jamie.graham@company.com,HR,HR Generalist,2024-12-17,,21,Other,57000,Active,3.23,3.0,6.0,57.6,3.39,3.94,0.7,<1 Year,Average
+EMP0238,Candace,Tran,Candace Tran,candace.tran@company.com,Sales,Sales Manager,2025-07-28,,36,Female,102000,Active,,,,,,,0.0,<1 Year,
+EMP0239,Allen,Mitchell,Allen Mitchell,allen.mitchell@company.com,Engineering,Software Engineer,2023-07-20,,28,Male,81000,Active,3.2,2.0,3.0,72.9,3.48,3.49,2.1,1-3 Years,Average
+EMP0240,Caitlin,Erickson,Caitlin Erickson,caitlin.erickson@company.com,Marketing,Marketing Specialist,2025-03-25,,25,Other,55000,Active,3.01,4.0,8.0,52.0,,,0.4,<1 Year,Average
+EMP0241,Alexandria,Rivera,Alexandria Rivera,alexandria.rivera@company.com,IT,IT Specialist,2019-12-25,,29,Female,70000,Active,3.15,1.0,4.0,44.9,3.43,3.42,5.6,5-10 Years,Average
+EMP0242,Zachary,Carter,Zachary Carter,zachary.carter@company.com,Legal,Senior Counsel,2019-06-21,,35,Male,140000,Active,3.5,2.0,4.0,55.7,3.65,3.16,6.1,5-10 Years,Average
+EMP0243,Elizabeth,Sanchez,Elizabeth Sanchez,elizabeth.sanchez@company.com,Marketing,Director Marketing,2020-09-11,,45,Other,118000,Active,3.56,2.0,3.0,77.9,3.23,3.09,4.9,3-5 Years,Average
+EMP0244,Wendy,Gilmore,Wendy Gilmore,wendy.gilmore@company.com,Sales,Sales Rep,2024-09-11,,24,Other,56000,Active,3.05,4.0,8.0,51.7,3.71,3.56,0.9,<1 Year,Average
+EMP0245,Megan,Santana,Megan Santana,megan.santana@company.com,Legal,Legal Counsel,2025-08-03,,27,Other,89000,Active,,,,,,,0.0,<1 Year,
+EMP0246,Desiree,Mitchell,Desiree Mitchell,desiree.mitchell@company.com,Finance,Financial Analyst,2020-05-09,,31,Female,66000,Active,3.33,2.0,4.0,66.1,3.5,3.02,5.3,5-10 Years,Average
+EMP0247,Jason,Lee,Jason Lee,jason.lee@company.com,Marketing,Marketing Specialist,2024-07-02,,21,Male,58000,Active,2.93,4.0,8.0,50.8,3.28,2.9,1.1,1-3 Years,Below Average
+EMP0248,Cheryl,Wilson,Cheryl Wilson,cheryl.wilson@company.com,Legal,Legal Counsel,2018-10-28,,27,Other,112000,Active,3.6,1.0,3.0,66.1,3.9,3.47,6.8,5-10 Years,Average
+EMP0249,David,Shea,David Shea,david.shea@company.com,Marketing,Marketing Specialist,2018-12-30,,27,Male,70000,Active,3.49,2.0,4.0,73.5,3.08,2.81,6.6,5-10 Years,Average
+EMP0250,John,Watson,John Watson,john.watson@company.com,Customer Service,Support Rep,2021-10-15,,29,Male,46000,Active,2.74,1.0,4.0,35.0,3.39,3.26,3.8,3-5 Years,Below Average
+EMP0251,Pamela,Francis,Pamela Francis,pamela.francis@company.com,Product,Product Manager,2024-12-03,,26,Other,91000,Active,2.92,3.0,6.0,65.3,3.56,3.04,0.7,<1 Year,Below Average
+EMP0252,Sean,Miller,Sean Miller,sean.miller@company.com,Operations,Operations Manager,2024-08-25,,34,Male,78000,Active,2.69,1.0,3.0,38.0,3.47,2.96,1.0,<1 Year,Below Average
+EMP0253,Melissa,Fitzgerald,Melissa Fitzgerald,melissa.fitzgerald@company.com,Customer Service,Senior Support Rep,2021-10-24,,32,Female,67000,Active,2.94,5.0,8.0,68.6,3.04,3.53,3.8,3-5 Years,Below Average
+EMP0254,Renee,Smith,Renee Smith,renee.smith@company.com,Marketing,Director Marketing,2024-11-09,2025-06-10,40,Other,116000,Terminated,3.03,5.0,8.0,67.4,3.59,3.9,0.8,<1 Year,Average
+EMP0255,John,Davis,John Davis,john.davis@company.com,Legal,Legal Director,2025-04-01,,37,Male,156000,Active,3.09,3.0,7.0,44.4,,,0.4,<1 Year,Average
+EMP0256,Mary,Arnold,Mary Arnold,mary.arnold@company.com,Marketing,Director Marketing,2023-12-29,2025-07-07,39,Other,126000,Terminated,3.1,1.0,4.0,47.6,3.51,3.34,1.6,1-3 Years,Average
+EMP0257,Rebecca,Smith,Rebecca Smith,rebecca.smith@company.com,Engineering,Software Engineer,2020-02-14,,29,Female,84000,Active,3.0,2.0,4.0,63.0,3.87,4.37,5.5,5-10 Years,Below Average
+EMP0258,Darin,Thomas,Darin Thomas,darin.thomas@company.com,Operations,Operations Analyst,2023-03-29,,22,Male,64000,Active,3.41,2.0,4.0,73.2,3.41,3.82,2.4,1-3 Years,Average
+EMP0259,Victoria,Barker,Victoria Barker,victoria.barker@company.com,Operations,Operations Manager,2023-12-07,,32,Other,88000,Active,2.84,2.0,4.0,61.3,3.1,3.0,1.7,1-3 Years,Below Average
+EMP0260,Kimberly,Parker,Kimberly Parker,kimberly.parker@company.com,Marketing,Marketing Manager,2025-06-01,,27,Female,84000,Active,,,,,,,0.2,<1 Year,
+EMP0261,Brian,Johnson,Brian Johnson,brian.johnson@company.com,Finance,Financial Analyst,2023-09-18,,28,Male,63000,Active,3.27,1.0,3.0,45.9,3.94,3.91,1.9,1-3 Years,Average
+EMP0262,Melissa,Chandler,Melissa Chandler,melissa.chandler@company.com,HR,HR Generalist,2016-05-28,2021-05-11,35,Female,59000,Terminated,3.45,3.0,6.0,55.4,3.53,3.52,9.2,5-10 Years,Average
+EMP0263,Dawn,Vincent,Dawn Vincent,dawn.vincent@company.com,IT,Senior IT,2025-04-26,,30,Female,92000,Active,2.52,1.0,5.0,34.1,,,0.3,<1 Year,Below Average
+EMP0264,Tracy,Alexander,Tracy Alexander,tracy.alexander@company.com,Customer Service,Support Rep,2024-02-28,,26,Female,39000,Active,2.85,5.0,8.0,66.4,3.35,3.31,1.5,1-3 Years,Below Average
+EMP0265,Paige,Walker,Paige Walker,paige.walker@company.com,Sales,Senior Sales Rep,2021-06-05,,39,Other,81000,Active,2.59,2.0,7.0,40.2,3.29,3.28,4.2,3-5 Years,Below Average
+EMP0266,Rachel,Clark,Rachel Clark,rachel.clark@company.com,Legal,Legal Counsel,2022-12-03,,21,Other,102000,Active,2.81,3.0,6.0,51.4,3.41,4.04,2.7,1-3 Years,Below Average
+EMP0267,Valerie,Oliver,Valerie Oliver,valerie.oliver@company.com,Finance,Senior Analyst,2023-03-27,,30,Female,84000,Active,3.29,4.0,8.0,60.4,3.56,3.08,2.4,1-3 Years,Average
+EMP0268,Tammy,Hernandez,Tammy Hernandez,tammy.hernandez@company.com,Sales,Senior Sales Rep,2023-03-14,,34,Other,70000,Active,3.07,2.0,5.0,52.7,3.38,4.06,2.4,1-3 Years,Average
+EMP0269,Lauren,Ford,Lauren Ford,lauren.ford@company.com,Legal,Legal Counsel,2024-09-23,,26,Female,105000,Active,3.11,4.0,8.0,51.7,3.51,3.66,0.9,<1 Year,Average
+EMP0270,Brandy,Mitchell,Brandy Mitchell,brandy.mitchell@company.com,Marketing,Director Marketing,2024-12-04,2025-06-29,35,Female,109000,Terminated,3.09,2.0,5.0,46.9,3.23,3.5,0.7,<1 Year,Average
+EMP0271,Jose,Jones,Jose Jones,jose.jones@company.com,HR,Director HR,2022-04-23,,42,Male,107000,Active,3.34,1.0,3.0,55.7,3.04,3.25,3.3,3-5 Years,Average
+EMP0272,Patricia,Wagner,Patricia Wagner,patricia.wagner@company.com,Product,Product Manager,2022-04-20,,25,Other,85000,Active,3.15,5.0,8.0,71.8,3.59,3.47,3.3,3-5 Years,Average
+EMP0273,Matthew,Black,Matthew Black,matthew.black@company.com,Operations,Operations Analyst,2021-08-02,,29,Male,68000,Active,2.68,4.0,8.0,50.1,3.3,3.3,4.0,3-5 Years,Below Average
+EMP0274,Shelby,Ferguson,Shelby Ferguson,shelby.ferguson@company.com,Product,Director Product,2020-09-25,,41,Other,163000,Active,3.42,3.0,4.0,77.3,3.33,3.93,4.9,3-5 Years,Average
+EMP0275,Sandra,Richards,Sandra Richards,sandra.richards@company.com,Operations,Director Operations,2024-03-10,,37,Female,118000,Active,3.13,2.0,4.0,50.1,2.79,2.92,1.4,1-3 Years,Average
+EMP0276,Robert,Best,Robert Best,robert.best@company.com,Customer Service,Senior Support Rep,2024-03-24,,36,Male,55000,Active,2.72,2.0,5.0,40.7,3.25,3.12,1.4,1-3 Years,Below Average
+EMP0277,Victor,Garcia,Victor Garcia,victor.garcia@company.com,Sales,Sales Rep,2022-06-03,,29,Male,57000,Active,2.84,1.0,3.0,48.9,2.94,2.94,3.2,3-5 Years,Below Average
+EMP0278,Jessica,Diaz,Jessica Diaz,jessica.diaz@company.com,Marketing,Marketing Manager,2023-07-10,,29,Female,85000,Active,2.8,1.0,3.0,48.4,3.39,3.46,2.1,1-3 Years,Below Average
+EMP0279,Brenda,Lee,Brenda Lee,brenda.lee@company.com,IT,CTO,2023-03-15,,45,Female,158000,Active,3.47,1.0,3.0,49.9,3.19,3.39,2.4,1-3 Years,Average
+EMP0280,Alicia,Lopez,Alicia Lopez,alicia.lopez@company.com,Customer Service,Support Rep,2022-06-12,,24,Other,49000,Active,2.43,1.0,6.0,31.1,3.09,3.51,3.2,3-5 Years,Below Average
+EMP0281,Richard,Davies,Richard Davies,richard.davies@company.com,IT,Senior IT,2021-03-17,,33,Male,89000,Active,2.48,1.0,4.0,44.7,3.82,3.6,4.4,3-5 Years,Below Average
+EMP0282,Evelyn,Snyder,Evelyn Snyder,evelyn.snyder@company.com,Operations,Operations Analyst,2024-10-17,,19,Other,59000,Active,3.15,3.0,7.0,52.3,3.47,3.16,0.8,<1 Year,Average
+EMP0283,Elizabeth,Buchanan,Elizabeth Buchanan,elizabeth.buchanan@company.com,Product,Director Product,2024-09-05,,36,Other,150000,Active,3.19,5.0,8.0,67.8,3.48,2.74,0.9,<1 Year,Average
+EMP0284,Kristina,Henderson,Kristina Henderson,kristina.henderson@company.com,Operations,Operations Analyst,2025-06-03,,22,Other,63000,Active,,,,,,,0.2,<1 Year,
+EMP0285,Michael,Morales,Michael Morales,michael.morales@company.com,Marketing,Marketing Specialist,2023-11-23,,28,Male,53000,Active,3.39,2.0,5.0,50.7,3.43,3.37,1.7,1-3 Years,Average
+EMP0286,Wendy,Brown,Wendy Brown,wendy.brown@company.com,Product,Product Manager,2025-07-19,,26,Female,76000,Active,,,,,,,0.1,<1 Year,
+EMP0287,Angel,Rice,Angel Rice,angel.rice@company.com,Sales,Sales Rep,2024-05-14,,27,Male,59000,Active,2.56,1.0,4.0,43.6,3.55,3.51,1.3,1-3 Years,Below Average
+EMP0288,Robin,Liu,Robin Liu,robin.liu@company.com,Operations,Operations Manager,2024-01-21,,36,Other,81000,Active,2.85,3.0,6.0,50.6,3.27,3.73,1.6,1-3 Years,Below Average
+EMP0289,April,Meyer,April Meyer,april.meyer@company.com,Marketing,Marketing Manager,2024-12-11,,29,Female,83000,Active,3.63,5.0,8.0,71.4,3.53,3.27,0.7,<1 Year,Average
+EMP0290,Claudia,Johnston,Claudia Johnston,claudia.johnston@company.com,HR,HR Generalist,2023-11-01,,22,Other,50000,Active,3.39,1.0,3.0,48.3,3.85,3.81,1.8,1-3 Years,Average
+EMP0291,Christy,Marshall,Christy Marshall,christy.marshall@company.com,Engineering,Software Engineer,2025-07-23,,26,Female,82000,Active,,,,,,,0.1,<1 Year,
+EMP0292,Amanda,Caldwell,Amanda Caldwell,amanda.caldwell@company.com,Marketing,Marketing Manager,2025-07-18,,31,Other,75000,Terminated,,,,,,,0.1,<1 Year,
+EMP0293,Alexis,Garcia,Alexis Garcia,alexis.garcia@company.com,Product,Senior PM,2022-03-01,,31,Other,113000,Active,2.89,3.0,7.0,56.8,3.72,3.26,3.5,3-5 Years,Below Average
+EMP0294,Jessica,Watkins,Jessica Watkins,jessica.watkins@company.com,Sales,Sales Rep,2024-09-22,,24,Female,47000,Active,3.11,5.0,8.0,69.3,3.59,3.64,0.9,<1 Year,Average
+EMP0295,Christina,Marks,Christina Marks,christina.marks@company.com,IT,IT Specialist,2025-05-07,,25,Other,67000,Active,3.59,3.0,5.0,68.9,,,0.3,<1 Year,Average
+EMP0296,Paul,Vazquez,Paul Vazquez,paul.vazquez@company.com,Sales,Senior Sales Rep,2024-02-22,,30,Male,71000,Active,2.52,2.0,7.0,30.9,3.37,3.19,1.5,1-3 Years,Below Average
+EMP0297,Nancy,Patterson,Nancy Patterson,nancy.patterson@company.com,HR,HR Generalist,2022-09-07,,25,Other,59000,Active,3.08,4.0,8.0,56.1,3.3,3.52,2.9,1-3 Years,Average
+EMP0298,Margaret,Summers,Margaret Summers,margaret.summers@company.com,HR,HR Manager,2025-02-18,,29,Female,74000,Active,3.13,3.0,7.0,53.4,,,0.5,<1 Year,Average
+EMP0299,Kimberly,Johnson,Kimberly Johnson,kimberly.johnson@company.com,Legal,Legal Counsel,2023-09-03,,22,Other,90000,Active,2.95,2.0,6.0,43.4,3.28,3.53,1.9,1-3 Years,Below Average
+EMP0300,Alicia,Thompson,Alicia Thompson,alicia.thompson@company.com,IT,IT Specialist,2025-06-10,,19,Other,72000,Active,,,,,,,0.2,<1 Year,
