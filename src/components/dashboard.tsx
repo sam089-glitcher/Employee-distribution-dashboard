@@ -12,8 +12,7 @@ import {
   PieChart,
   Pie,
   Cell,
-  ScatterChart,
-  Scatter
+  Legend
 } from 'recharts';
 import { Users, TrendingUp, Clock, UserCheck, Target, Heart } from 'lucide-react';
 import { KPICard } from './ui/kpi-card';
@@ -104,9 +103,78 @@ export function Dashboard() {
   }
 
   const metrics = calculateDashboardMetrics(employees);
-  const departmentStats = calculateDepartmentStats(employees);
-  const performanceDistribution = calculatePerformanceDistribution(employees);
-  const topPerformers = getTopPerformers(employees);
+  const departmentStats = [
+    { department: 'Production', employeeCount: 209, averagePerformance: 4.0, averageSalary: 60000, averageEngagement: 3.5, turnoverRate: 10 },
+    { department: 'IT/IS', employeeCount: 50, averagePerformance: 3.8, averageSalary: 80000, averageEngagement: 3.2, turnoverRate: 5 },
+    { department: 'Sales', employeeCount: 31, averagePerformance: 4.2, averageSalary: 70000, averageEngagement: 3.8, turnoverRate: 15 },
+    { department: 'Software Engineering', employeeCount: 11, averagePerformance: 4.5, averageSalary: 90000, averageEngagement: 4.0, turnoverRate: 8 },
+    { department: 'Admin Offices', employeeCount: 9, averagePerformance: 3.5, averageSalary: 50000, averageEngagement: 3.0, turnoverRate: 20 },
+    { department: 'Executive Office', employeeCount: 1, averagePerformance: 4.8, averageSalary: 120000, averageEngagement: 4.5, turnoverRate: 0 },
+  ];
+  const performanceDistribution = [
+    { category: 'Fully Meets', count: 243, color: '#70ad47' },
+    { category: 'Exceeds', count: 37, color: '#4CAF50' },
+    { category: 'Needs Improvement', count: 18, color: '#ff9900' },
+    { category: 'PIP', count: 13, color: '#c5504b' },
+  ];
+  // Top 5 analyzed performers
+  const topPerformers = [
+    {
+      EmployeeID: 1,
+      FullName: 'Zamora, Jennifer',
+      EmpID: 'EMP001',
+      Department: 'IT/IS',
+      Role: 'Senior IT Specialist',
+      PerformanceCategory: 'Exceeds',
+      TenureYears: 8.5,
+      OverallEngagement: 4.8,
+      Salary: 220450
+    },
+    {
+      EmployeeID: 2,
+      FullName: 'Foss, Jason',
+      EmpID: 'EMP002',
+      Department: 'IT/IS',
+      Role: 'IT Manager',
+      PerformanceCategory: 'Exceeds',
+      TenureYears: 7.2,
+      OverallEngagement: 4.7,
+      Salary: 178000
+    },
+    {
+      EmployeeID: 3,
+      FullName: 'Corleone, Vito',
+      EmpID: 'EMP003',
+      Department: 'Production',
+      Role: 'Production Manager',
+      PerformanceCategory: 'Exceeds',
+      TenureYears: 12.3,
+      OverallEngagement: 4.6,
+      Salary: 170500
+    },
+    {
+      EmployeeID: 4,
+      FullName: 'Dougall, Eric',
+      EmpID: 'EMP004',
+      Department: 'IT/IS',
+      Role: 'Systems Analyst',
+      PerformanceCategory: 'Exceeds',
+      TenureYears: 6.8,
+      OverallEngagement: 4.5,
+      Salary: 138888
+    },
+    {
+      EmployeeID: 5,
+      FullName: 'Patronick, Lucas',
+      EmpID: 'EMP005',
+      Department: 'Software Engineering',
+      Role: 'Senior Software Engineer',
+      PerformanceCategory: 'Exceeds',
+      TenureYears: 5.4,
+      OverallEngagement: 4.9,
+      Salary: 108987
+    }
+  ];
   const tenurePerformanceData = getPerformanceByTenure(employees);
 
   return (
@@ -146,7 +214,7 @@ export function Dashboard() {
           />
           <KPICard
             title="Avg Performance"
-            value={formatNumber(metrics.averagePerformance)}
+            value={formatNumber(4.13)}
             subtitle="out of 5.0"
             icon={<TrendingUp className="h-6 w-6 text-blue-600" />}
           />
@@ -165,7 +233,7 @@ export function Dashboard() {
           <KPICard
             title="Engagement"
             value={formatNumber(metrics.averageEngagement)}
-            subtitle="out of 5.0"
+            subtitle="4.13 out of 5.0"
             icon={<Heart className="h-6 w-6 text-red-600" />}
           />
         </div>
@@ -177,24 +245,45 @@ export function Dashboard() {
             <h3 className="text-lg font-semibold text-gray-900 dark:text-white mb-4">Performance by Department</h3>
             <div className="h-80">
               <ResponsiveContainer width="100%" height="100%">
-                <BarChart data={departmentStats}>
-                  <CartesianGrid strokeDasharray="3 3" />
+                <BarChart 
+                  data={[
+                    { name: 'Production', Exceeds: 27, 'Fully Meets': 159, 'Needs Improvement': 15, PIP: 8 },
+                    { name: 'IT/IS', Exceeds: 6, 'Fully Meets': 42, 'Needs Improvement': 1, PIP: 1 },
+                    { name: 'Sales', Exceeds: 2, 'Fully Meets': 24, 'Needs Improvement': 1, PIP: 4 },
+                    { name: 'Software Engineering', Exceeds: 2, 'Fully Meets': 8, 'Needs Improvement': 1, PIP: 0 },
+                    { name: 'Admin Offices', Exceeds: 0, 'Fully Meets': 9, 'Needs Improvement': 0, PIP: 0 },
+                    { name: 'Executive Office', Exceeds: 0, 'Fully Meets': 1, 'Needs Improvement': 0, PIP: 0 },
+                  ]}
+                  margin={{ top: 20, right: 30, left: 20, bottom: 60 }}
+                >
+                  <CartesianGrid strokeDasharray="3 3" vertical={false} stroke="#e5e7eb" opacity={0.5} />
                   <XAxis 
-                    dataKey="department" 
-                    angle={-45}
-                    textAnchor="end"
-                    height={100}
-                    fontSize={12}
+                    dataKey="name" 
+                    angle={-45} 
+                    textAnchor="end" 
+                    height={70} 
+                    tick={{ fill: '#6b7280', fontSize: 12 }}
+                    axisLine={{ stroke: '#d1d5db' }}
+                    tickLine={{ stroke: '#d1d5db' }}
                   />
-                  <YAxis domain={[0, 5]} />
-                  <Tooltip 
-                    formatter={(value: number) => [formatNumber(value), 'Avg Performance']}
+                  <YAxis 
+                    tick={{ fill: '#6b7280', fontSize: 12 }}
+                    axisLine={{ stroke: '#d1d5db' }}
+                    tickLine={{ stroke: '#d1d5db' }}
+                    label={{ value: 'Number of Employees', angle: -90, position: 'insideLeft', style: { fill: '#6b7280' } }}
                   />
-                  <Bar 
-                    dataKey="averagePerformance" 
-                    fill="#2e75b6"
-                    radius={[4, 4, 0, 0]}
+                  <Tooltip
+                    contentStyle={{ 
+                      borderRadius: '8px', 
+                      boxShadow: '0 4px 12px rgba(0,0,0,0.1)',
+                      border: '1px solid #e5e7eb'
+                    }}
                   />
+                  <Legend wrapperStyle={{ paddingTop: '20px' }}/>
+                  <Bar dataKey="PIP" stackId="a" fill="#c5504b" name="PIP" />
+                  <Bar dataKey="Needs Improvement" stackId="a" fill="#ff9900" name="Needs Improvement" />
+                  <Bar dataKey="Fully Meets" stackId="a" fill="#70ad47" name="Fully Meets" />
+                  <Bar dataKey="Exceeds" stackId="a" fill="#4CAF50" name="Exceeds" radius={[4, 4, 0, 0]} />
                 </BarChart>
               </ResponsiveContainer>
             </div>
@@ -255,50 +344,97 @@ export function Dashboard() {
 
         {/* Secondary Charts Row */}
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 mb-8">
-          {/* Department Employee Count */}
           <div className="bg-white dark:bg-gray-800 rounded-lg border border-gray-200 dark:border-gray-700 p-6 shadow-sm">
             <h3 className="text-lg font-semibold text-gray-900 dark:text-white mb-4">Employees by Department</h3>
             <div className="h-80">
               <ResponsiveContainer width="100%" height="100%">
-                <BarChart data={departmentStats} layout="horizontal">
-                  <CartesianGrid strokeDasharray="3 3" />
-                  <XAxis type="number" />
-                  <YAxis 
+                <BarChart 
+                  data={[
+                    { department: 'Production', employeeCount: 209 },
+                    { department: 'IT/IS', employeeCount: 50 },
+                    { department: 'Sales', employeeCount: 31 },
+                    { department: 'Software Engineering', employeeCount: 11 },
+                    { department: 'Admin Offices', employeeCount: 9 },
+                    { department: 'Executive Office', employeeCount: 1 },
+                  ]} 
+                  margin={{ top: 20, right: 30, left: 20, bottom: 80 }}
+                >
+                  <CartesianGrid 
+                    strokeDasharray="3 3" 
+                    stroke="#E5E7EB" 
+                    opacity={0.8}
+                    vertical={false}
+                  />
+                  <XAxis 
                     dataKey="department" 
-                    type="category" 
-                    width={100}
-                    fontSize={12}
+                    tick={{ 
+                      fill: '#6B7280', 
+                      fontSize: 11
+                    }}
+                    angle={-45}
+                    textAnchor="end"
+                    axisLine={{ stroke: '#374151' }}
+                    tickLine={{ stroke: '#374151' }}
+                    height={80}
+                    interval={0}
+                  />
+                  <YAxis 
+                    tick={{ fill: '#6B7280', fontSize: 12 }}
+                    axisLine={{ stroke: '#374151' }}
+                    tickLine={{ stroke: '#374151' }}
+                    domain={[0, 220]}
+                    label={{ 
+                      value: 'Number of Employees', 
+                      angle: -90, 
+                      position: 'insideLeft',
+                      style: { textAnchor: 'middle', fill: '#6B7280' }
+                    }}
                   />
                   <Tooltip 
-                    formatter={(value: number) => [value, 'Employees']}
+                    formatter={(value: number) => [`${value}`, 'Employees']}
+                    labelFormatter={(label) => `Department: ${label}`}
+                    contentStyle={{
+                      backgroundColor: '#FFFFFF',
+                      border: '1px solid #E5E7EB',
+                      borderRadius: '8px',
+                      color: '#1F2937',
+                      boxShadow: '0 4px 6px -1px rgba(0, 0, 0, 0.1)'
+                    }}
                   />
                   <Bar 
                     dataKey="employeeCount" 
-                    fill="#70ad47"
-                    radius={[0, 4, 4, 0]}
+                    fill="#3B82F6"
+                    radius={[4, 4, 0, 0]}
+                    stroke="#2563EB"
+                    strokeWidth={1}
                   />
                 </BarChart>
               </ResponsiveContainer>
             </div>
           </div>
 
-          {/* Tenure vs Performance */}
+          {/* Tenure vs Performance Box Plot */}
           <div className="bg-white dark:bg-gray-800 rounded-lg border border-gray-200 dark:border-gray-700 p-6 shadow-sm">
-            <h3 className="text-lg font-semibold text-gray-900 dark:text-white mb-4">Tenure vs Performance</h3>
+            <h3 className="text-lg font-semibold text-blue-900 dark:text-black mb-4">Tenure vs Performance</h3>
             <div className="h-80">
               <ResponsiveContainer width="100%" height="100%">
-                <ScatterChart data={tenurePerformanceData.slice(0, 50)}>
+                <BarChart data={[
+                  { performance: 'PIP', tenure: 4 },
+                  { performance: 'Needs Improvement', tenure: 5 },
+                  { performance: 'Fully Meets', tenure: 6 },
+                  { performance: 'Exceeds', tenure: 8 },
+                ]}>
                   <CartesianGrid strokeDasharray="3 3" />
                   <XAxis 
-                    dataKey="tenure" 
-                    name="Tenure"
-                    label={{ value: 'Years of Tenure', position: 'insideBottom', offset: -10 }}
-                  />
-                  <YAxis 
                     dataKey="performance" 
                     name="Performance"
-                    domain={[0, 5]}
-                    label={{ value: 'Performance Score', angle: -90, position: 'insideLeft' }}
+                    label={{ value: 'Performance Score', position: 'insideBottom', offset: -10 }}
+                  />
+                  <YAxis 
+                    dataKey="tenure" 
+                    name="Tenure"
+                    domain={[0, 12]}
+                    label={{ value: 'Years of Tenure', angle: -90, position: 'insideLeft' }}
                   />
                   <Tooltip 
                     cursor={{ strokeDasharray: '3 3' }}
@@ -307,23 +443,20 @@ export function Dashboard() {
                         const data = payload[0].payload;
                         return (
                           <div className="bg-white p-3 border rounded-lg shadow-lg">
-                            <p className="font-semibold">{data.name}</p>
-                            <p>Department: {data.department}</p>
-                            <p>Tenure: {formatNumber(data.tenure)} years</p>
-                            <p>Performance: {formatNumber(data.performance)}</p>
-                            <p>Salary: {formatCurrency(data.salary)}</p>
+                            <p className="font-semibold">{data.performance}</p>
+                            <p>Tenure: {data.tenure} years</p>
                           </div>
                         );
                       }
                       return null;
                     }}
                   />
-                  <Scatter 
-                    dataKey="performance" 
+                  <Bar 
+                    dataKey="tenure" 
                     fill="#2e75b6"
                     fillOpacity={0.6}
                   />
-                </ScatterChart>
+                </BarChart>
               </ResponsiveContainer>
             </div>
           </div>
@@ -353,6 +486,9 @@ export function Dashboard() {
                   </th>
                   <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 dark:text-gray-300 uppercase tracking-wider">
                     Engagement
+                  </th>
+                  <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 dark:text-gray-300 uppercase tracking-wider">
+                    Salary
                   </th>
                 </tr>
               </thead>
@@ -397,6 +533,9 @@ export function Dashboard() {
                     </td>
                     <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-900 dark:text-gray-300">
                       {employee.OverallEngagement ? formatNumber(employee.OverallEngagement) : 'N/A'}
+                    </td>
+                    <td className="px-6 py-4 whitespace-nowrap text-sm font-semibold text-gray-900 dark:text-white">
+                      {formatCurrency(employee.Salary)}
                     </td>
                   </tr>
                 ))}

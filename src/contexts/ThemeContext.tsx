@@ -13,14 +13,20 @@ interface ThemeContextType {
 const ThemeContext = createContext<ThemeContextType | undefined>(undefined)
 
 export function ThemeProvider({ children }: { children: ReactNode }) {
-  const [theme, setTheme] = useState<Theme>('system')
+  const [theme, setTheme] = useState<Theme>('light')
   const [resolvedTheme, setResolvedTheme] = useState<'light' | 'dark'>('light')
+  const [mounted, setMounted] = useState(false)
 
   useEffect(() => {
+    setMounted(true)
     // Load saved theme preference
     const savedTheme = localStorage.getItem('theme') as Theme
-    if (savedTheme) {
+    if (savedTheme && ['light', 'dark', 'system'].includes(savedTheme)) {
       setTheme(savedTheme)
+    } else {
+      // Default to light theme if no saved preference
+      setTheme('light')
+      localStorage.setItem('theme', 'light')
     }
   }, [])
 
@@ -30,14 +36,27 @@ export function ThemeProvider({ children }: { children: ReactNode }) {
   }, [theme])
 
   useEffect(() => {
+    if (!mounted) return
+
     const updateResolvedTheme = () => {
+      let newResolvedTheme: 'light' | 'dark'
+      
       if (theme === 'system') {
-        const systemTheme = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light'
-        setResolvedTheme(systemTheme)
-        document.documentElement.classList.toggle('dark', systemTheme === 'dark')
+        newResolvedTheme = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light'
       } else {
-        setResolvedTheme(theme)
-        document.documentElement.classList.toggle('dark', theme === 'dark')
+        newResolvedTheme = theme
+      }
+      
+      setResolvedTheme(newResolvedTheme)
+      
+      // Update document classes
+      const root = document.documentElement
+      if (newResolvedTheme === 'dark') {
+        root.classList.add('dark')
+        root.classList.remove('light')
+      } else {
+        root.classList.add('light')
+        root.classList.remove('dark')
       }
     }
 
@@ -49,7 +68,7 @@ export function ThemeProvider({ children }: { children: ReactNode }) {
       mediaQuery.addEventListener('change', updateResolvedTheme)
       return () => mediaQuery.removeEventListener('change', updateResolvedTheme)
     }
-  }, [theme])
+  }, [theme, mounted])
 
   return (
     <ThemeContext.Provider value={{ theme, setTheme, resolvedTheme }}>

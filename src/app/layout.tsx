@@ -24,9 +24,45 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" suppressHydrationWarning>
+      <head>
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              (function() {
+                try {
+                  const theme = localStorage.getItem('theme') || 'light';
+                  const root = document.documentElement;
+                  
+                  if (theme === 'dark') {
+                    root.classList.add('dark');
+                    root.classList.remove('light');
+                  } else if (theme === 'light') {
+                    root.classList.add('light');
+                    root.classList.remove('dark');
+                  } else if (theme === 'system') {
+                    const systemDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+                    if (systemDark) {
+                      root.classList.add('dark');
+                      root.classList.remove('light');
+                    } else {
+                      root.classList.add('light');
+                      root.classList.remove('dark');
+                    }
+                  }
+                } catch (e) {
+                  // Fallback to light theme
+                  document.documentElement.classList.add('light');
+                  document.documentElement.classList.remove('dark');
+                }
+              })();
+            `,
+          }}
+        />
+      </head>
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} antialiased bg-gray-50 dark:bg-gray-900 text-gray-900 dark:text-gray-100`}
+        suppressHydrationWarning
       >
         <ThemeProvider>
           {children}
