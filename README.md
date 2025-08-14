@@ -103,7 +103,6 @@ Fully responsive design with:
 
 ## 🔗 Live Demo
 
-View the live dashboard: [employee-distribution-dashboard-ebon.vercel.app](employee-performance-dashboard-ebon.vercel.app
-)
+View the live dashboard: [employee-distribution-dashboard-ebon.vercel.app](https://employee-performance-dashboard-ebon.vercel.app)
 
 Built with ❤️ for better HR analytics and portfolio showcasing
