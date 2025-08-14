@@ -1,4 +1,4 @@
-# My Portfolio 2025 - Employee Performance Dashboard
+# Employee Performance Dashboard
 
 A comprehensive HR analytics dashboard built with Next.js, React, and Recharts. This web-based version replicates Power BI functionality and provides real-time employee performance insights.
 
